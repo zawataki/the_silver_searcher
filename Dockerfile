@@ -1,5 +1,5 @@
 # TODO: Change base OS to Ubuntu because CentOS image size is bigger than Ubuntu
-FROM centos as base
+FROM ubuntu as base
 ENV HOME=/root
 ENV LLVM_VERSION=6.0.1
 ENV LLVM_PATH=$HOME/clang+llvm
