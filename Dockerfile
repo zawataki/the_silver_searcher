@@ -1,3 +1,4 @@
+# TODO: Change base OS to Ubuntu because CentOS image size is bigger than Ubuntu
 FROM centos as base
 ENV HOME=/root
 ENV LLVM_VERSION=6.0.1
